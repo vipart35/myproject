@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image" href="https://cdn.icon-icons.com/icons2/2248/PNG/128/saw_blade_icon_137225.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>наш сайт</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="//web-ptica.ru/VRV-files/fancybox3/1.12.4-jquery.min.js"></script>
+<script src="//web-ptica.ru/VRV-files/fancybox3/jquery.maskedinput.min.js"></script>
+<script src="//web-ptica.ru/VRV-files/fancybox3/jquery.fancybox.min.js"></script>
+<script src="//web-ptica.ru/VRV-files/fancybox3/script-zvonka.js"></script>
+<link rel="stylesheet" type="text/css" href="//web-ptica.ru/VRV-files/fancybox3/jquery.fancybox.min.css">   
+<link rel="stylesheet" type="text/css" href="//web-ptica.ru/VRV-files/fancybox3/fancyvrv.css">  
+</head>
+<body>
+  <div class="header">
+    <p class="logo">Название компании</p>
+	<p class="contact">телефон/эл.почта</p>
+    <div class="button">листать</div>
+	<div class="button2" <input value="Скачать прайс" class="button" onclick="location.href='https://vk.com/doc154915386_557046644'" />Прайс</div> 
+  </div>
+
+  <img class="image" src="https://sun9-69.userapi.com/impg/azqJlCH0EAG6jGK4YSB7V0ukStuR2zX_QZC0yw/XyPhvOUgEWs.jpg?size=1024x768&quality=96&sign=47cb753551e0de18d0832e23be453ae4&type=album">
+
+  <div class="advice">
+    <span>услуги/товар</span></span>
+    
+    <span class="phrase">закажите обратный звонок</span>
+    
+    <img class="cursor" src="https://code.s3.yandex.net/web-code/cursor.gif">
+  </div>
+  
+  <p class="footer">© 2021 студия Сергея Лебедева vipArt35</p>
+
+  <script src="https://code.s3.yandex.net/web-code/smoothly.js"></script>
+  <script src="script.js"></script>
+  <div id="call" class="modalbox-wrap">
+    <div class="form-valid">
+        <form id="contact">
+            <div class="popup-title">Обратная связь</div>
+             
+            <input type="text" id="form_name" name="name" placeholder="Ваше Имя" required="">
+             
+            <!--<span class="vyborsvsp">Как с Вами связаться?</span>-->
+             
+            <input type="radio" name="vyborsvyzi" id="telephone" checked="">
+            <label for="telephone">телефон</label>
+             
+             
+            <input type="radio" name="vyborsvyzi" id="mylo">
+            <label for="mylo">По E-Mail</label>
+             
+             
+            <input type="text" id="form_phone" name="phone" placeholder="Телефон">
+            <input id="form_mail" name="mail" class="skrytvrv" value="-----" placeholder="E-mail" type="text" required="">
+             
+            <textarea id="form_text" name="message" placeholder="Комментарий" required=""></textarea>
+ 
+            <input type="text" class="form_vrv" name="vrvzam" placeholder="Почта">
+            <input type="text" class="form_vrv2" name="vrvzam2" placeholder="">
+            <input type="text" class="form_vrv3" name="vrvzam3" placeholder="vrv" value="vrv">
+            <input type="hidden" name="page_url" value="<?  echo 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>">
+ 
+             
+<span class="konfdan">Отправляя заявку вы даете согласие на обработку <a target="_blank" href="//web-ptica.ru/politika">персональных данных</a>.</span>
+            <input type="submit" id="razrvrv-acc2" class="btn" value="заказать звонок" style="">
+        </form>
+    </div>
+</div>
+<a href="#call" class="modalbox call"><span>ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</span></a>
+  </body>
+</html>
